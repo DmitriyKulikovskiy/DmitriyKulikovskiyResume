@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.04837469.css",
-    "main.js": "/static/js/main.e908540a.js",
-    "static/media/white.jpg": "/static/media/white.13ef7ce03430b2f852e5.jpg",
-    "static/media/background.png": "/static/media/background.9c81c03ab5477b982778.png",
-    "static/media/photo.jpeg": "/static/media/photo.0102c5ef514deedd2516.jpeg",
-    "static/media/sc.svg": "/static/media/sc.34d2c09f8a7d2e8e2eeffd590b4caad2.svg",
-    "index.html": "/index.html",
-    "static/media/mobx.svg": "/static/media/mobx.6c729787edea8f13e8fe74577dd36118.svg",
-    "static/media/appium.svg": "/static/media/appium.f4e9149786c535a30b33b549eb6b40d5.svg",
-    "main.04837469.css.map": "/static/css/main.04837469.css.map",
-    "main.e908540a.js.map": "/static/js/main.e908540a.js.map"
+    "main.css": "/DmitriyKulikovskiyResume/static/css/main.edcaccaf.css",
+    "main.js": "/DmitriyKulikovskiyResume/static/js/main.105806bf.js",
+    "static/media/white.jpg": "/DmitriyKulikovskiyResume/static/media/white.13ef7ce03430b2f852e5.jpg",
+    "static/media/background.png": "/DmitriyKulikovskiyResume/static/media/background.9c81c03ab5477b982778.png",
+    "static/media/photo.jpeg": "/DmitriyKulikovskiyResume/static/media/photo.0102c5ef514deedd2516.jpeg",
+    "static/media/sc.svg": "/DmitriyKulikovskiyResume/static/media/sc.34d2c09f8a7d2e8e2eeffd590b4caad2.svg",
+    "index.html": "/DmitriyKulikovskiyResume/index.html",
+    "static/media/mobx.svg": "/DmitriyKulikovskiyResume/static/media/mobx.6c729787edea8f13e8fe74577dd36118.svg",
+    "static/media/appium.svg": "/DmitriyKulikovskiyResume/static/media/appium.f4e9149786c535a30b33b549eb6b40d5.svg",
+    "main.edcaccaf.css.map": "/DmitriyKulikovskiyResume/static/css/main.edcaccaf.css.map",
+    "main.105806bf.js.map": "/DmitriyKulikovskiyResume/static/js/main.105806bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.04837469.css",
-    "static/js/main.e908540a.js"
+    "static/css/main.edcaccaf.css",
+    "static/js/main.105806bf.js"
   ]
 }
