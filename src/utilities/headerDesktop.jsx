@@ -11,7 +11,7 @@ const HeaderDesktop = () => {
 
     return (
         <div className="header">
-            <div onClick={() => navigatie('/DmitriyKulikovskiyResume')} className="header__name">{t('home.name')}</div>
+            <div onClick={() => navigatie('/DmitriyKulikovskiyResume/')} className="header__name">{t('home.name')}</div>
             <NavItems containerClass="header__nav" t={t} />
         </div>
     )
