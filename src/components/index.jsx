@@ -20,8 +20,8 @@ const App = () => {
       <BrowserRouter>
         <div>
           <HeaderDesktop />
-          <Routes>
-            <Route exact path="/DmitriyKulikovskiyResume/home" element={<Homepage setTheme={setTheme} theme={theme}/>} />
+          <Routes> 
+            <Route exact path="/DmitriyKulikovskiyResume" element={<Homepage setTheme={setTheme} theme={theme}/>} />
             <Route path="/DmitriyKulikovskiyResume/about" element={<About />} />
             <Route path="/DmitriyKulikovskiyResume/resume" element={<Resume />} />
             <Route path="/DmitriyKulikovskiyResume/contact" element={<Contact />} />
