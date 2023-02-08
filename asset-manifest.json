@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/DmitriyKulikovskiyResume/static/css/main.edcaccaf.css",
+    "main.js": "/DmitriyKulikovskiyResume/static/js/main.f7652928.js",
+    "static/media/white.jpg": "/DmitriyKulikovskiyResume/static/media/white.13ef7ce03430b2f852e5.jpg",
+    "static/media/background.png": "/DmitriyKulikovskiyResume/static/media/background.9c81c03ab5477b982778.png",
+    "static/media/photo.jpeg": "/DmitriyKulikovskiyResume/static/media/photo.0102c5ef514deedd2516.jpeg",
+    "static/media/sc.svg": "/DmitriyKulikovskiyResume/static/media/sc.34d2c09f8a7d2e8e2eeffd590b4caad2.svg",
+    "index.html": "/DmitriyKulikovskiyResume/index.html",
+    "static/media/mobx.svg": "/DmitriyKulikovskiyResume/static/media/mobx.6c729787edea8f13e8fe74577dd36118.svg",
+    "static/media/appium.svg": "/DmitriyKulikovskiyResume/static/media/appium.f4e9149786c535a30b33b549eb6b40d5.svg",
+    "main.edcaccaf.css.map": "/DmitriyKulikovskiyResume/static/css/main.edcaccaf.css.map",
+    "main.f7652928.js.map": "/DmitriyKulikovskiyResume/static/js/main.f7652928.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edcaccaf.css",
+    "static/js/main.f7652928.js"
+  ]
+}
