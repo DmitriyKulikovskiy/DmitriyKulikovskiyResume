@@ -7,10 +7,10 @@ const NavItems = ({ containerClass, t }) => {
     const activeClassName = route => activeClass === route ? 'is-active' : 'underline-a';
 
     const navigationList = [
-        {route: '/', name: 'home.home'},
-        {route: '/about', name: 'home.about'},
-        {route: '/resume', name: 'home.resume'},
-        {route: '/contact', name: 'home.contact'},
+        {route: '/DmitriyKulikovskiyResume/home', name: 'home.home'},
+        {route: '/DmitriyKulikovskiyResume/about', name: 'home.about'},
+        {route: '/DmitriyKulikovskiyResume/resume', name: 'home.resume'},
+        {route: '/DmitriyKulikovskiyResume/contact', name: 'home.contact'},
     ];
 
     return (

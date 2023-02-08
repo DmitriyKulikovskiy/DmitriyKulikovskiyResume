@@ -21,10 +21,10 @@ const App = () => {
         <div>
           <HeaderDesktop />
           <Routes>
-            <Route exact path="/" element={<Homepage setTheme={setTheme} theme={theme}/>} />
-            <Route path="/about" element={<About />} />
-            <Route path="/resume" element={<Resume />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route exact path="/DmitriyKulikovskiyResume/home" element={<Homepage setTheme={setTheme} theme={theme}/>} />
+            <Route path="/DmitriyKulikovskiyResume/about" element={<About />} />
+            <Route path="/DmitriyKulikovskiyResume/resume" element={<Resume />} />
+            <Route path="/DmitriyKulikovskiyResume/contact" element={<Contact />} />
           </Routes>
         </div>
       </BrowserRouter>
