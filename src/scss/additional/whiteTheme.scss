@@ -1,0 +1,145 @@
+.white-theme {
+    background-image: url('../../../assets/white.jpg');
+    color: black;
+
+    .homepage {
+        &__h1 {
+            color: $black;
+
+            span {
+                font-weight: bold;
+                color: $toxin;
+            }
+        }
+
+        .nav-item {
+            color: $black;
+
+            &:hover {
+                color: $black;
+            }
+        }
+
+        .settings {
+            border-top: 1px solid $black;
+        }
+
+        .social {
+            background: $black;
+
+            svg {
+                fill: $white;
+            }
+        }
+
+        &__download-button {
+            background: $black08;
+            color: $white;
+
+            &:hover {
+                background: $black04;
+            }
+        }
+
+        .overlay__content {
+            display: none;
+        }
+    }
+
+    .header {
+        background: $gray08;
+
+        .nav-item {
+            color: black;
+
+            &:hover {
+                color: $black04;
+            }
+        }
+    }
+
+    .divider__h1 {
+        color: black;
+    }
+
+    .about {
+        background: $gray08;
+
+        .work {
+            &__item, &__top-icon {
+                background: $black06;
+
+                &:hover {
+                    background: $black04;
+                }
+            }
+        }
+    }
+
+    .skills {
+        .container {
+            background: $black06;
+            color: $white;
+        }
+    }
+
+    .interests {
+        &__item {
+            background: $black06;
+            color: $white;
+        }
+    }
+
+    .resume {
+        background: $gray08;
+
+        .container {
+            border-left: 2px solid $black06;
+        }
+    }
+
+    .box__date {
+        background: $black02 !important;
+    }
+
+    .contact {
+        background: $gray08;
+
+        .info-item {
+            background: $black05;
+
+            &__icon-box {
+                background: $black04;
+            }
+
+            &__description {
+                .title {
+                    color: $black05;
+                }
+
+                .description {
+                    color: $white;
+                }
+
+                .list-icons {
+                    svg {
+                        color: $white;
+                    }
+                }
+            }
+        }
+
+        &__form {
+            background: $black05;
+
+            input, textarea {
+                background: $black04;
+                color: $white;
+
+                &::placeholder {
+                    color: $white;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "home": {
+        "home": "Home",
+        "about": "About",
+        "resume": "Resume",
+        "contact": "Contact",
+        "name": "Dmitriy Kulikovskyi",
+        "h1": "I'm a passionate <span>frontend developer</span> from Kiev"
+    }
+}

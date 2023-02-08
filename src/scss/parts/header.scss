@@ -1,0 +1,34 @@
+.header {
+    height: 80px;
+    background: $black08;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    &__name {
+        font-size: 36px;
+        font-weight: bold;
+        cursor: pointer;
+        padding-left: 80px;
+    }
+
+    &__nav {
+        display: flex;
+        padding-right: 80px;
+
+        .nav-item {
+            margin-right: 1.5rem;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+
+    @include underlineAnimation;
+    @include screen('small') {
+        display: none;
+    }
+}

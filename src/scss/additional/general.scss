@@ -1,0 +1,21 @@
+body {
+    background-image: url('../../../assets/background.png');
+    width: 100%;
+    background-size: cover;
+    color: $white;
+    font-family: $mainFontFamily;
+    margin: 0;
+    padding: 0;
+
+    @include screen('small') {
+        background-size: unset;
+    }
+}
+
+a:visited {
+    color: $gray08;
+}
+
+.is-active {
+    @include underlineHalfPart;
+}

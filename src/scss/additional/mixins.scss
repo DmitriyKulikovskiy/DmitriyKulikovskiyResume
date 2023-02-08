@@ -1,0 +1,81 @@
+@mixin underlineAnimation {
+    .underline-a {
+        display: inline-block;
+        position: relative;
+        color: $gray08;
+    }
+      
+    .underline-a::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: $toxin;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+      
+    .underline-a:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+
+    .underline-a:hover {
+        color: $white;
+    }
+}
+
+@mixin underlineHalfPart {
+    position: relative;
+
+    &::before {
+        content : "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 1px;
+        width : 50%; 
+        border-bottom: 2px solid $toxin;
+    }
+}
+
+@mixin defaultOnHover {
+    background: $gray02;
+    color: $toxin;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+$breakpoints: (
+  'small':  767px,
+  'medium': 992px,
+  'large':  1200px
+) !default;
+
+@mixin screen($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+      @media (max-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+      }
+    }
+    @else {
+      @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+          + "Available breakpoints are: #{map-keys($breakpoints)}.";
+    }
+}
+
+@mixin mainContainer {
+    margin: 7rem 60px 0 60px;
+    background: $black08;
+    padding: 30px;
+}
+
+@mixin title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
